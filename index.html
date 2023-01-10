@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Criador de Bolhas</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="back">
+
+
+      <div class="blob">
+
+      </div>
+    </div>
+    <div class="size">
+      <label for="height">
+        Height:
+        <input id="height" type="text">
+      </label>
+      <label for="width">
+        Width:
+        <input id="width" type="text">
+      </label>
+    </div>
+
+    <div class="range">
+      <input id="rangeOne" onchange="rangeOne()" type="range" min="0" max="100">
+      <input id="rangeTwo" onchange="rangeOne()" type="range" min="0" max="100">
+      <input id="rangeThree" onchange="rangeOne()" type="range" min="0" max="100">
+      <input id="rangeFour" onchange="rangeOne()" type="range" min="0" max="100">
+    </div>
+    <div class="style">
+      <p>border-radius :
+      </p>
+      <button onclick="handleClick()">Copiar</button>
+    </div>
+
+  </div>
+</body>
+
+</html>
